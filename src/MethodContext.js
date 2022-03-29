@@ -6,10 +6,6 @@ import { EventEmitter } from './EventEmitter';
 2)В методе unsubscribe отпишитесь от события click с помощью EventEmitter.off(eventName, callback).
 В качестве callback нужно передавать тот же самый обработчик, который был передан при подписке.
  */
-function clickOn() {
-    count++;
-}
-
 export const obj = {
     count: 0,
     counter() {
